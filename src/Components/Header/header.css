@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 30px;
+}
+
+#nomeHeader{
+    color: #3B3B3B;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#nomeHeader2{
+    color: #235789;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nome-perfil{
+    margin-top:15px;
+    margin-right: 50px;
+}
+.nome-perfil span{
+    color: #235789;
+    font-family: Poppins;
+    font-size: 18px;
+    
+}
+.nome-perfil img{
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+.line{
+    margin: 0 auto;
+    width: 95%;
+    height: 1px;
+    background-color:#B1B1B1 ;
+}

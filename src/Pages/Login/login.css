@@ -1,0 +1,125 @@
+.container-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 55%;
+    margin-left: 150px;
+
+}
+.h1-login{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 40px;
+}
+.h1-login img{
+    margin-top: 10px;
+}
+#nome1{
+    color: #3B3B3B;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#nome2{
+    color: #235789;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-login span{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+    text-align: center;
+    width: 460px;
+    
+}
+.menu-login form{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+}
+.inputarea{
+    padding: 7px 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C1BBBB;
+    background: #FFF;
+    transition: all ;
+}
+.inputarea:hover{
+    border-left: 4px solid #235789;
+}
+.inputarea label{
+    color: rgba(0, 0, 0, 0.61);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.inputarea input{
+    border: 0;
+    margin-top: 8px;
+    color: #235789;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.menu-login form button{
+    margin-top: 90px;
+    border: 0;
+    padding: 15px;
+    width: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #235789;
+    background: #fff;
+    border: 1px solid #235789;
+    transition: all 0.3s;
+}
+.menu-login form button:hover{
+    background: #235789;
+    color: #fff;
+}
+.imagem-nuvem{
+    height: 100vh;
+    width: 45%;
+    background: radial-gradient(72.53% 75.59% at 50.00% 50.00%, rgba(255, 255, 255, 0.41) 16.55%, rgba(243, 243, 243, 0.41) 32.78%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-btn{
+    text-decoration: none;
+    margin-left: 60px;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    width: 100px;
+    font-family: Poppins;
+    color: #235789;
+    border: 1px solid #235789;
+    transition: all 0.3s;
+}
+.register-btn:hover{
+    background: #235789;
+    color: #fff;
+}
