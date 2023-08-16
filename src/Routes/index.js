@@ -10,7 +10,7 @@ export default function RoutesApp(){
         <Routes>
             <Route path="/" element={ <Login/> }/> 
             <Route path="/register" element={ <Register/> }/>
-            <Route path="/home" element={ <Home/> }/>
+            <Route path="/landing" element={ <Home/> }/>
         </Routes>
     );
 }

@@ -1,0 +1,66 @@
+
+.body-home{
+    width: 100%;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.conteudo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 4.5em;
+    margin-top: 6em;
+    
+}
+.txt-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.5em;
+}
+.conteudo-home h1{
+    font-family: Roboto;
+    color: #333;
+    font-size: 50px;
+    
+}
+.conteudo-home span{
+    color: #828282;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 6px;
+    border-left: 1.5px solid #E6AACE;
+}
+.btn-exercicios{
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #235789;
+    text-decoration: none;
+    color: #fff;
+}
+.img-brilho{
+    width: 100%;
+    
+}
+.img-brilho img{
+    padding: 10px;
+    
+}
+.nuvem-img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nuvem-img img{
+    margin-bottom: 7em;
+}
