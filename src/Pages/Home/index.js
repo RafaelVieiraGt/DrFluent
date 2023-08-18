@@ -13,7 +13,7 @@ export default function Home(){
                     <div className='txt-home'>
                         <h1>Aprenda <br/>inglês de forma <br/>didática e divertida</h1>
                         <span>Treine seu conhecimento com diversos temas atuais!</span>
-                        <Link to='/exercicios' className='btn-exercicios'>Começar teste</Link>
+                        <Link to='/settings' className='btn-exercicios'>Começar teste</Link>
                     </div>
                     <div className='img-brilho'>
                         <img src={brilho} alt='brilho'/>

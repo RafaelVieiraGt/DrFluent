@@ -1,0 +1,11 @@
+.box{
+    width: 100%;
+    max-width: 600px
+}
+.box select{
+    border: 0;
+}
+select:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

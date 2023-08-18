@@ -1,0 +1,24 @@
+#div-config{
+    height: 100vh;
+}
+.container-settings{
+    height: calc(100% - 121px);
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    align-items: center;
+    gap: 4em;
+}
+.container-settings form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}    
+.container-settings h1{
+    font-family: Roboto;
+    color: #333;
+    font-size: 50px;
+}
