@@ -1,0 +1,52 @@
+.container-exercicios{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    
+
+}
+.titulo{
+    width: 40%;
+    background-color: #235789;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    font-family: Poppins;
+    color: #FDFFFC;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+}
+.alternativas{
+    background-color: #BDBDBD;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.alt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    height: 90px;
+    background-color: #EEE;
+}
+.alt:hover{
+    background-color: #235789;
+    color: #fff;
+}
+.alt span{
+    font-family: Poppins;
+    font-weight: 450;
+    font-size: 18px;
+    
+}
+
