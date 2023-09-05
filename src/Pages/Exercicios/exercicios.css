@@ -49,4 +49,30 @@
     font-size: 18px;
     
 }
-
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+footer img{
+    bottom: 0;
+}
+.botoes-proxAnt{
+    width: calc(100% - 186px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.botoes-proxAnt button{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 21px;
+    color: #333;
+    padding: 8px 16px;
+    background-color: #E6AACE;
+    border: 0;
+}

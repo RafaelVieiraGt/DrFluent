@@ -7,9 +7,9 @@ export default function Header(){
        <header>
             <div className='header'>
                 <div className='h1-login'>
-                    <h1 id='nomeHeader'>Fluent</h1>
+                    <h1 id='nomeHeader'>Dr</h1>
                     <img src={nuvemFeliz} width={45} height={45} alt='Nuvem feliz'/>
-                    <h1 id='nomeHeader2'>U</h1>
+                    <h1 id='nomeHeader2'>Fluent</h1>
                 </div>
                 <div className='nome-perfil'>
                     <img src={iconPessoa} alt='Ícone de pessoa'/>

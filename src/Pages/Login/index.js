@@ -12,9 +12,9 @@ export default function Login(){
         <div className='container-login'>
             <div className='menu-login'>
                 <div className='h1-login'>
-                    <h1 id='nome1'>Fluent</h1>
+                    <h1 id='nome1'>Dr</h1>
                     <img src={nuvemFeliz} width={90} height={90} alt='Nuvem feliz'/>
-                    <h1 id='nome2'>U</h1>
+                    <h1 id='nome2'>Fluent</h1>
                 </div>
                 <span>
                     Bem-vindo/a de volta! <br/>Por favor faça login/Signup na sua conta.

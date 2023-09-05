@@ -14,11 +14,11 @@
 .h1-login{
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    gap: 2px;
     margin-left: 40px;
 }
 .h1-login img{
-    margin-top: 10px;
+    margin-top: 6px;
 }
 #nome1{
     color: #3B3B3B;
