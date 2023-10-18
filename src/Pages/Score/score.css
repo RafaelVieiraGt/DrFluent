@@ -1,0 +1,93 @@
+.cont-central{
+    height: calc(100% - 121px);
+}
+.title{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    
+}
+.title h1{
+    font-family: Roboto;
+    font-weight: 550;
+    font-style: normal;
+    color: #333;
+    font-size: 40px;
+}
+.title #nome{
+    color: #E6AACE;
+}
+.score{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box-score{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #235789;
+}
+.box-score span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    font-size: 29px;
+}
+.box-score h1{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 66px;
+    color: #FCC822
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.finalizar-div{
+    height: calc(100% - 307px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.finalizar-div h1{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 40px;
+    color: #333;
+}
+.finalizar-div span{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+    color: #E6AACE;
+}
+.finalizar-div a {
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 12px 15px;
+    background-color: #FCC822;
+    color: #333;
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+.finalizar-div a:hover{
+    background-color: #333;
+    color: #FCC822;
+}

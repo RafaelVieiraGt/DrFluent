@@ -1,10 +1,16 @@
 import './home.css';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from '../../Components/Header';
 import figura1 from '../../Assets/nuvemHome.JPG';
 import brilho from '../../Assets/BrilhoHome.JPG';
 
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 export default function Home(){
+    useEffect(()=>{
+           toast.success("Bem vindo ao DrFluent!")
+    },[])
     return(
         <div className='body-home'>
             <Header/>
@@ -23,6 +29,7 @@ export default function Home(){
                     <img src={figura1} alt='figura de nuvem'/>
                 </div>
             </main>
+            <ToastContainer/>
         </div>
     );
 }

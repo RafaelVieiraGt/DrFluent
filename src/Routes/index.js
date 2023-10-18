@@ -5,6 +5,10 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Exercicios from "../Pages/Exercicios";
 import Configuracoes from "../Pages/Configuracoes";
+import Score from "../Pages/Score";
+import Erro404 from "../Pages/404";
+
+import Private from "./private";
 
 
 export default function RoutesApp(){
@@ -12,9 +16,14 @@ export default function RoutesApp(){
         <Routes>
             <Route path="/" element={ <Login/> }/> 
             <Route path="/register" element={ <Register/> }/>
-            <Route path="/landing" element={ <Home/> }/>
-            <Route path="/settings" element={ <Configuracoes/> }/>
-            <Route path="/exercicios" element={ <Exercicios/> }/>
+            <Route path="/landing" element={ <Private><Home/></Private> }/>
+            <Route path="/settings" element={ <Private><Configuracoes/></Private> }/>
+            <Route path="/exercicios" element={ <Private><Exercicios/></Private> }/>
+            <Route path="/score" element={ <Private><Score/></Private> }/>
+
+
+
+            <Route path="*" element={ <Erro404/> }/>
         </Routes>
     );
 }

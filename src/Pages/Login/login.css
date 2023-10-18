@@ -52,6 +52,7 @@
     margin-top: 80px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     width: 530px;
 }
 .inputarea{
@@ -90,7 +91,7 @@ input:focus{
     outline: 0;
 }
 .menu-login form button{
-    margin-top: 90px;
+    margin-top: 70px;
     border: 0;
     padding: 15px;
     width: 100px;
@@ -128,4 +129,10 @@ input:focus{
 .register-btn:hover{
     background: #235789;
     color: #fff;
+}
+.inputSenha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }

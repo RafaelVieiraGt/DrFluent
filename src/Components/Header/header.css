@@ -14,6 +14,9 @@
     font-weight: 400;
     line-height: normal;
 }
+.h1-login{
+    cursor: pointer;
+}
 #nomeHeader2{
     color: #235789;
     font-family: Poppins;
@@ -39,6 +42,21 @@
     width: 25px;
     height: 25px;
     margin-right: 5px;
+}
+.nome-perfil button{
+    margin-left: 20px;
+    border: 0;
+    background-color: #fff;
+    color: #235789;
+    font-family: Poppins;
+    padding: 5px 8px;
+    font-size: 18px;
+    transition: all;
+}
+.nome-perfil button:hover{
+    background-color: #235789;
+    color: #fff;
+    cursor: pointer;
 }
 .line{
     margin: 0 auto;

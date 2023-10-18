@@ -73,7 +73,7 @@ const navigate = useNavigate();
     const typeOption = [
         {id: "any", name: " "},
         {id: "multiple", name: "MultipleChoice"},
-        {id: "boolean", name: "True/False"},
+        //{id: "boolean", name: "True/False"},
     ]
     
     return(

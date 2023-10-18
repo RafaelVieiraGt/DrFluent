@@ -1,0 +1,53 @@
+.pagError{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-content{
+    height: calc(100% - 225px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px ;
+}
+.imagem h1{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 170px;
+    color: #235789;
+}
+.error-content span{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+    color: #E6AACE;
+    margin-bottom: 40px;
+    
+}
+.error-content a{
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #235789;
+}
+
+.pagError footer{
+    display: flex;
+    justify-content: end;
+}
