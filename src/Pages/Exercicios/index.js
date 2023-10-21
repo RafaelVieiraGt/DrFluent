@@ -21,7 +21,6 @@ export default function Exercicios(){
 
  const {exercicios} = useSelector(rootReducer => rootReducer.exercicios)
   
- console.log(exercicios);
 
  
 
@@ -38,7 +37,7 @@ export default function Exercicios(){
     const [altCerta, setAltCerta] = useState("")
     const [alts, setAlts] = useState([]);
     const navigate = useNavigate()
-    console.log(response)
+ 
     
 
 
@@ -82,7 +81,6 @@ export default function Exercicios(){
       )
   }
     
-        console.log(alts, altCerta)
 
 
   function submitAlt(event){
@@ -111,7 +109,6 @@ export default function Exercicios(){
    
     
   }
-  console.log("score: " + score, contador, contadorPags)
   localStorage.setItem('@score',score)
 
   function handleProximo(){

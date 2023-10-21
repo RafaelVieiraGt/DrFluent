@@ -64,7 +64,17 @@ console.log(nomesProfSelect)
                 })
             })
             .catch((error)=>{
-                toast.error("Algo deu errado!")
+
+                const errorCode = error.code
+                if(errorCode === "auth/email-already-in-use"){
+                    toast.error("Esse email já é fluent! Faça login.")
+                }
+                if(errorCode === "auth/weak-password"){
+                    toast.error("A sua senha deve haver pelo menos 6 caracteres")
+                }
+                if(errorCode === "auth/invalid-email"){
+                    toast.error("Email inválido!")
+                }
                 console.log(error)
             })
         }else{

@@ -36,7 +36,7 @@ export default function Login(){
                 
             })
             .catch(()=>{
-                toast.error("Algo deu errado! Verifique suas credenciais.")
+                toast.error("Erro ao entrar! Verifique suas credenciais.")
             })
         }else{
             toast.error("Preencha todos os campos!")
