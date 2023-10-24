@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Dr Fluent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <br/>
+ 
+<img src="./src/Assets/nuvemChapeu.jpeg" width="400" height="370">
 
-## Available Scripts
+Dr Fluent, um projeto focado em ajudar professores de inglês a aprimorar o conhecimento de seus alunos e organiza-los de forma simples e eficiente.
 
-In the project directory, you can run:
+ <br/>
+ 
+## 🔧 Funcionamento
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Faça a instalação do nosso aplicativo Desktop DrFluent.
+  
+Com o app instalado na sua máquina, se registre, faça o login e pronto! voce pode fazer o registro de seus alunos para gerenciá-los de forma mais organizada. Tendo acesso a informações de cada aluno 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ <br/>
 
-### `npm test`
+> A professora deve cadastrar o aluno com seu nome completo, e o mesmo deve inserir seu nome completo no site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dessa forma, cada um de seus alunos deve criar sua conta no site  [Dr Fluent ](https://nossosite.com)  e desfrutar de inúmeras perguntas em ingles.
 
-### `npm run build`
+ <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Temos mais de 20 categorias de conhecimento, abrangendo os níveis fácil, médio e difícil.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+quanto mais perguntas o aluno responde, maior será seu score. Podendo competir com seus colegas de classe.
 
-### `npm run eject`
+ <br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> A professora terá acesso em tempo real aos scores atualizados de cada aluno no Dr Fluent desktop.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ <br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📋 Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Computador com acesso à internet.
 
-## Learn More
+ <br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Implantação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O software perfeito para professoras particulares e microempresárias do ramo da educação.
 
-### Code Splitting
+ <br/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Tecnologias utilizadas
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [React Js](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
 
-### Making a Progressive Web App
+* [The open trivia database](https://opentdb.com/api_config.php) (Fonte dos exercicios)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [React Hooks](https://legacy.reactjs.org/docs/hooks-intro.html)
 
-### Advanced Configuration
+* [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* [Google Firebase](https://firebase.google.com/docs?hl=pt-br)
 
-### Deployment
+* [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ <br/>
 
-### `npm run build` fails to minify
+## 📌 Proximas Atualizações
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Aplicativo Móvel Dr Fluent
+
+* Novos exercicios de gramática
+
+ <br/>
+
+## ✒️ Autores
+
+* [Rafael Camilli Vieira](https://www.linkedin.com/in/rafael-camilli-vieira-077355269/) -Desenvolvedor
+
+* [Daniel Augusto Ribeiro Martins](https://www.linkedin.com/in/daniel-martins-99882224a/) -Desenvolvedor
+
+* [Ana Julia Coelho Sávio](https://www.linkedin.com/in/ana-j%C3%BAlia-coelho-s%C3%A1vio-530441217/) -Designer
+
+* [Matheus Rodrigues Peres]() -Pesquisa
+
+* [Felippe Moreira](https://www.linkedin.com/in/felippe-moreira-2388ab266/) -Pesquisa
