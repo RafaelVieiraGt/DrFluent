@@ -79,6 +79,6 @@ O software perfeito para professoras particulares e microempresárias do ramo da
 
 * [Ana Julia Coelho Sávio](https://www.linkedin.com/in/ana-j%C3%BAlia-coelho-s%C3%A1vio-530441217/) -Designer
 
-* [Matheus Rodrigues Peres]() -Pesquisa
+* [Matheus Rodrigues Peres](https://www.linkedin.com/in/matheus-peres-4184a6279/) -Pesquisa
 
 * [Felippe Moreira](https://www.linkedin.com/in/felippe-moreira-2388ab266/) -Pesquisa
