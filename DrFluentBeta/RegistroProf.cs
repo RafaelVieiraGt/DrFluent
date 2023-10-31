@@ -83,7 +83,7 @@ namespace DrFluentBeta
 
 
             
-            MessageBox.Show($"Bem-Vindo/a, {nome}");
+            MessageBox.Show($"Bem-Vindo/a, {nome} faça o login para prosseguir");
         }
 
         

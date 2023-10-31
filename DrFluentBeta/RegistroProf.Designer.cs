@@ -79,7 +79,7 @@
             this.EnviarButton2.Name = "EnviarButton2";
             this.EnviarButton2.Size = new System.Drawing.Size(162, 36);
             this.EnviarButton2.TabIndex = 27;
-            this.EnviarButton2.Text = "ENVIAR";
+            this.EnviarButton2.Text = "CADASTRAR";
             this.EnviarButton2.UseVisualStyleBackColor = false;
             this.EnviarButton2.Click += new System.EventHandler(this.EnviarButton2_Click);
             // 
@@ -160,8 +160,8 @@
             // loginProfessorToolStripMenuItem
             // 
             this.loginProfessorToolStripMenuItem.Name = "loginProfessorToolStripMenuItem";
-            this.loginProfessorToolStripMenuItem.Size = new System.Drawing.Size(125, 24);
-            this.loginProfessorToolStripMenuItem.Text = "Login Professor";
+            this.loginProfessorToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.loginProfessorToolStripMenuItem.Text = "Login ";
             this.loginProfessorToolStripMenuItem.Click += new System.EventHandler(this.loginProfessorToolStripMenuItem_Click);
             // 
             // RegistroProf

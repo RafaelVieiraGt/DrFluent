@@ -40,11 +40,7 @@
             this.EnviarButton = new System.Windows.Forms.Button();
             this.sairButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.cadastroProfessorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginProfessorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buttonAlunos = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // NomeBox
@@ -181,31 +177,6 @@
             this.label5.Text = "Cadastro Aluno:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroProfessorToolStripMenuItem,
-            this.loginProfessorToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(522, 28);
-            this.menuStrip1.TabIndex = 19;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // cadastroProfessorToolStripMenuItem
-            // 
-            this.cadastroProfessorToolStripMenuItem.Name = "cadastroProfessorToolStripMenuItem";
-            this.cadastroProfessorToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
-            this.cadastroProfessorToolStripMenuItem.Text = "Cadastro Professor";
-            this.cadastroProfessorToolStripMenuItem.Click += new System.EventHandler(this.cadastroProfessorToolStripMenuItem_Click);
-            // 
-            // loginProfessorToolStripMenuItem
-            // 
-            this.loginProfessorToolStripMenuItem.Name = "loginProfessorToolStripMenuItem";
-            this.loginProfessorToolStripMenuItem.Size = new System.Drawing.Size(125, 24);
-            this.loginProfessorToolStripMenuItem.Text = "Login Professor";
-            // 
             // buttonAlunos
             // 
             this.buttonAlunos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(87)))), ((int)(((byte)(137)))));
@@ -238,15 +209,11 @@
             this.Controls.Add(this.EmailBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NomeBox);
-            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "RegistroForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Professores";
             this.Load += new System.EventHandler(this.RegistroForm_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,9 +232,6 @@
         private System.Windows.Forms.Button EnviarButton;
         private System.Windows.Forms.Button sairButton;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem cadastroProfessorToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem loginProfessorToolStripMenuItem;
         private System.Windows.Forms.Button buttonAlunos;
     }
 }

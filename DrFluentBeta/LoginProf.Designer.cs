@@ -133,8 +133,8 @@
             // cadastroProfessorToolStripMenuItem
             // 
             this.cadastroProfessorToolStripMenuItem.Name = "cadastroProfessorToolStripMenuItem";
-            this.cadastroProfessorToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
-            this.cadastroProfessorToolStripMenuItem.Text = "Cadastro Professor";
+            this.cadastroProfessorToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.cadastroProfessorToolStripMenuItem.Text = "Cadastro";
             this.cadastroProfessorToolStripMenuItem.Click += new System.EventHandler(this.cadastroProfessorToolStripMenuItem_Click);
             // 
             // label1

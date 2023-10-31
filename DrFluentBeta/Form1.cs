@@ -55,7 +55,7 @@ namespace DrFluentBeta
         {
             string nome = NomeBox.Text.Trim();
             string email = EmailBox.Text.Trim();
-            long telefone = Convert.ToInt64(TelefoneBox.Text);
+            string telefone = TelefoneBox.Text.Trim();
             string nvlIng = nvlingBox.Text.Trim();
             int scoreAluno = 0;
 

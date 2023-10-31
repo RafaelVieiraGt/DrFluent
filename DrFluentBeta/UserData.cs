@@ -15,7 +15,7 @@ namespace DrFluentBeta
         [FirestoreProperty]
         public string EmailAluno { get; set; }
         [FirestoreProperty]
-        public long TelefoneAluno { get; set; }
+        public string TelefoneAluno { get; set; }
         [FirestoreProperty]
         public string NvlIng { get; set; }
         [FirestoreProperty]
