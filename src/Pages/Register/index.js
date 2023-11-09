@@ -96,61 +96,62 @@ console.log(nomesProfSelect)
     return(
         <div className='container-login'>
             <div className='menu-login'>
-                <div className='h1-login'>
-                    <h1 id='nome1'>Dr</h1>
-                    <img src={nuvemFeliz} width={115} height={115} alt='Nuvem feliz'/>
-                    <h1 id='nome2'>Fluent</h1>
-                </div>
-                <span>
-                    Entre pro time! <br/>Cadastre-se para ser Fluent!
-                </span>
-                <form onSubmit={handleRegister}>
-                    <div className='inputarea'>
-                        <label>Nome</label>
-                        <input 
-                        type='text'
-                        placeholder='Seu Nome completo'
-                        value={nome}
-                        onChange={(e) => setNome(e.target.value)}
-                        />
+                
+                    <div className='h1-login'>
+                        <h1 id='nome1'>Dr</h1>
+                        <img src={nuvemFeliz} width={115} height={115} alt='Nuvem feliz'/>
+                        <h1 id='nome2'>Fluent</h1>
                     </div>
-                    <div className='inputarea'>
-                        <label>E-mail</label>
-                        <input 
-                        type='text'
-                        placeholder='Digite seu Email'
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        />
-                    </div>
-                    <div className='inputarea'>
-                        <label>Senha</label>
-                        <div className='inputSenha'>
+                    <span>
+                        Entre pro time! <br/>Cadastre-se para ser Fluent!
+                    </span>
+                    <form onSubmit={handleRegister}>
+                        <div className='inputarea'>
+                            <label>Nome</label>
                             <input 
-                            type={view}
-                            placeholder='******'
-                            value={senha}
-                            onChange={(e) => setSenha(e.target.value)}
+                            type='text'
+                            placeholder='Seu Nome completo'
+                            value={nome}
+                            onChange={(e) => setNome(e.target.value)}
                             />
-                            <FaRegEyeSlash color='#235789' onClick={viewPasswd} size={20} cursor='pointer' />
                         </div>
-                    </div>
-                    <div className='inputarea'>
-                        <label>Nome da sua professora</label>
-                        <select value={valueSelect} onChange={(e)=> setValueSelect(e.target.value)}>
-                            <option value=''></option>
-                            {nomesProfSelect.map((prof)=>(
-                                <option value={prof}>{prof}</option>
-                            ))}
-                        </select>
-                    </div>
-                    
-                    <div>
-                        <button type='submit'>Registrar</button>
-                    </div>
-                    <Link to='/' className='link-login'>Já possui uma conta? Faça Login!</Link>
-                    
-                </form>
+                        <div className='inputarea'>
+                            <label>E-mail</label>
+                            <input 
+                            type='text'
+                            placeholder='Digite seu Email'
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <div className='inputarea'>
+                            <label>Senha</label>
+                            <div className='inputSenha'>
+                                <input 
+                                type={view}
+                                placeholder='******'
+                                value={senha}
+                                onChange={(e) => setSenha(e.target.value)}
+                                />
+                                <FaRegEyeSlash color='#235789' onClick={viewPasswd} size={20} cursor='pointer' />
+                            </div>
+                        </div>
+                        <div className='inputarea'>
+                            <label>Nome da sua professora</label>
+                            <select value={valueSelect} onChange={(e)=> setValueSelect(e.target.value)}>
+                                <option value=''></option>
+                                {nomesProfSelect.map((prof)=>(
+                                    <option value={prof}>{prof}</option>
+                                ))}
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <button type='submit'>Registrar</button>
+                        </div>
+                        <Link to='/' className='link-login'>Já possui uma conta? Faça Login!</Link>
+                        
+                    </form>
                 
             </div>
             <div className='imagem-nuvem'>
