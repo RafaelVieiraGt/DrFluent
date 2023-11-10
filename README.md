@@ -19,7 +19,7 @@ Com o app instalado na sua máquina, se registre, faça o login e pronto! voce p
 
 > A professora deve cadastrar o aluno com seu nome completo, e o mesmo deve inserir seu nome completo no site.
 
-Dessa forma, cada um de seus alunos deve criar sua conta no site  [Dr Fluent ](https://nossosite.com)  e desfrutar de inúmeras perguntas em ingles.
+Dessa forma, cada um de seus alunos deve criar sua conta no site  [Dr Fluent ](https://drfluent.netlify.app/)  e desfrutar de inúmeras perguntas em ingles.
 
  <br/>
 
