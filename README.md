@@ -73,9 +73,9 @@ O software perfeito para professoras particulares e microempresárias do ramo da
 
 ## ✒️ Autores
 
-* [Rafael Camilli Vieira](https://www.linkedin.com/in/rafael-camilli-vieira-077355269/) -Desenvolvedor
+* [Rafael Camilli Vieira](https://www.linkedin.com/in/rafael-camilli-vieira-077355269/) -Desenvolvedor Web
 
-* [Daniel Augusto Ribeiro Martins](https://www.linkedin.com/in/daniel-martins-99882224a/) -Desenvolvedor
+* [Daniel Augusto Ribeiro Martins](https://www.linkedin.com/in/daniel-martins-99882224a/) -Desenvolvedor C#
 
 * [Ana Julia Coelho Sávio](https://www.linkedin.com/in/ana-j%C3%BAlia-coelho-s%C3%A1vio-530441217/) -Designer
 
