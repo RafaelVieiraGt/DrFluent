@@ -11,7 +11,9 @@ Dr Fluent, um projeto focado em ajudar professores de inglês a aprimorar o conh
 ## 🔧 Funcionamento
 
 
-> Faça a instalação do nosso aplicativo Desktop DrFluent.
+> Faça a instalação do nosso aplicativo Desktop DrFluent clicando no link abaixo.
+
+[Download DrFluent](https://github.com/RafaelVieiraGt/DrFluent/raw/desktop/DrFluent 1.1.zip)
   
 Com o app instalado na sua máquina, se registre, faça o login e pronto! voce pode fazer o registro de seus alunos para gerenciá-los de forma mais organizada. Tendo acesso a informações de cada aluno 
 
