@@ -8,15 +8,15 @@
     flex-direction: column;
     height: 100vh;
     width: 55%;
-    margin-left: 150px;
+    align-items: center;
     justify-content: center;
-
+    gap: 35px;
 }
 .h1-login{
     display: flex;
     flex-direction: row;
     gap: 2px;
-    margin-left: 40px;
+    
 }
 .h1-login img{
     margin-top: 6px;
@@ -44,17 +44,18 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 50px;
+    
     text-align: center;
     width: 460px;
     
 }
 .menu-login form{
-    margin-top: 50px;
+    
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 530px;
+    align-items: center;
 }
 .inputarea{
     padding: 7px 12px;
@@ -91,8 +92,14 @@ input:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
 }
+.btnRespo{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    gap: 60px;
+}
 .menu-login form button{
-    margin-top: 50px;
+    
     border: 0;
     padding: 15px;
     width: 100px;
@@ -117,7 +124,7 @@ input:focus{
 }
 .register-btn{
     text-decoration: none;
-    margin-left: 60px;
+    text-align: center;
     background-color: #fff;
     padding: 15px;
     font-size: 16px;
@@ -136,4 +143,9 @@ input:focus{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    
+    
 }

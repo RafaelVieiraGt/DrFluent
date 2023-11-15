@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 import nuvemFeliz from '../../Assets/nuvemFeliz-removebg-preview 1.svg';
-import nuvemGrande from '../../Assets/nuvemChapeu.jpeg';
+import nuvemGrande from '../../Assets/nuvemChapeu.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { FaRegEyeSlash } from 'react-icons/fa';
@@ -146,7 +146,7 @@ console.log(nomesProfSelect)
                             </select>
                         </div>
                         
-                        <div>
+                        <div className='btnRespo'>
                             <button type='submit'>Registrar</button>
                         </div>
                         <Link to='/' className='link-login'>Já possui uma conta? Faça Login!</Link>

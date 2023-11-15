@@ -2,7 +2,7 @@
 
  <br/>
  
-<img src="./src/Assets/nuvemChapeu.jpeg" width="400" height="370">
+<img src="./src/Assets/nuvemChapeu.png" width="400" height="370">
 
 Dr Fluent, um projeto focado em ajudar professores de inglês a aprimorar o conhecimento de seus alunos e organiza-los de forma simples e eficiente.
 

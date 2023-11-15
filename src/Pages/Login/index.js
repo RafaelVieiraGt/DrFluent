@@ -2,7 +2,7 @@ import './login.css';
 import 'react-toastify/dist/ReactToastify.css';
 //IMAGES
 import nuvemFeliz from '../../Assets/nuvemFeliz-removebg-preview 1.svg';
-import nuvemGrande from '../../Assets/nuvemChapeu.jpeg';
+import nuvemGrande from '../../Assets/nuvemChapeu.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
@@ -86,7 +86,7 @@ export default function Login(){
                        </div>
                         
                     </div>
-                    <div>
+                    <div className='btnRespo'>
                         <button type='submit'>Login</button>
                         <Link to='/register' className='register-btn'>Registrar</Link>
                     </div>
