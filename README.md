@@ -11,7 +11,9 @@ Dr Fluent, um projeto focado em ajudar professores de inglês a aprimorar o conh
 ## 🔧 Funcionamento
 
 
-> Faça a instalação do nosso aplicativo Desktop DrFluent.
+> Faça a instalação do nosso aplicativo Desktop DrFluent clicando no link abaixo.
+
+[Download DrFluent](https://github.com/RafaelVieiraGt/DrFluent/raw/desktop/DrFluent1.1.zip)
   
 Com o app instalado na sua máquina, se registre, faça o login e pronto! voce pode fazer o registro de seus alunos para gerenciá-los de forma mais organizada. Tendo acesso a informações de cada aluno 
 
@@ -19,7 +21,7 @@ Com o app instalado na sua máquina, se registre, faça o login e pronto! voce p
 
 > A professora deve cadastrar o aluno com seu nome completo, e o mesmo deve inserir seu nome completo no site.
 
-Dessa forma, cada um de seus alunos deve criar sua conta no site  [Dr Fluent ](https://nossosite.com)  e desfrutar de inúmeras perguntas em ingles.
+Dessa forma, cada um de seus alunos deve criar sua conta no site  [Dr Fluent ](https://drfluent.netlify.app/)  e desfrutar de inúmeras perguntas em ingles.
 
  <br/>
 
@@ -73,9 +75,9 @@ O software perfeito para professoras particulares e microempresárias do ramo da
 
 ## ✒️ Autores
 
-* [Rafael Camilli Vieira](https://www.linkedin.com/in/rafael-camilli-vieira-077355269/) -Desenvolvedor
+* [Rafael Camilli Vieira](https://www.linkedin.com/in/rafael-camilli-vieira-077355269/) -Desenvolvedor Web
 
-* [Daniel Augusto Ribeiro Martins](https://www.linkedin.com/in/daniel-martins-99882224a/) -Desenvolvedor
+* [Daniel Augusto Ribeiro Martins](https://www.linkedin.com/in/daniel-martins-99882224a/) -Desenvolvedor C#
 
 * [Ana Julia Coelho Sávio](https://www.linkedin.com/in/ana-j%C3%BAlia-coelho-s%C3%A1vio-530441217/) -Designer
 
