@@ -64,3 +64,58 @@
     height: 1px;
     background-color:#B1B1B1 ;
 }
+
+@media (max-width: 500px){
+    .main{
+        display: flex;
+    }
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+    }
+    #nomeHeader #nomeHeader2{
+        font-size: 22px;
+    }
+    .h1-login{
+        text-align: center;
+        justify-content: center;
+    }
+    #img-header{
+        width: 45px;
+        height: 45px;
+    }
+    .nome-perfil{
+        margin-top: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .nome-perfil img{
+        
+    }
+    .nuvem-img{
+        display: none;
+    }
+    .conteudo-home{
+        width: 100%;
+    }
+    .conteudo-home h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .txt-home{
+        width: 80%;
+        gap: 3.5em;
+    }
+    .img-brilho{
+        text-align: center;
+    }
+    .img-brilho img{
+        padding: 0;
+        width: 300px;
+        height: 200px;
+    }
+    .conteudo-home{
+        margin-top: 3.5em;
+    }
+}

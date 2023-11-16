@@ -146,6 +146,39 @@ input:focus{
 }
 
 @media (max-width: 500px) {
-    
-    
+    .menu-login{
+        width: 100%;
+        gap: 25px;
+    }
+    #nome1, #nome2{
+        font-size: 50px;
+    }
+    .h1-login img{
+        width: 70px;
+        height: 70px;
+    }
+    .imagem-nuvem{
+        display: none;
+    }
+    .menu-login span{
+        font-size: 18px;
+    }
+    .menu-login form{
+        width: 80%;
+    }
+    .inputarea input{
+        font-size: 15px;
+    }
+    .btnRespo{
+        height: 100px;
+    }
+    .menu-login form button {
+        font-size: 15px;
+        padding: 10px;
+
+    }
+    .register-btn{
+        font-size: 15px;
+        padding: 10px;
+    }
 }

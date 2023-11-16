@@ -81,3 +81,28 @@ footer img{
     background-color: #E6AACE;
     border: 0;
 }
+@media (max-width: 500px){
+    .container-exercicios{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .titulo{
+        width: 100%;
+    }
+    .titulo h1{
+        text-align: center;
+    }
+    .alternativas{
+        width: 100%;
+    }
+    .botoes-proxAnt{
+        width: 100%;
+    }
+    footer img{
+        display: none;
+    }
+    .finalizar-div h1{
+        text-align: center;
+    }
+    
+}

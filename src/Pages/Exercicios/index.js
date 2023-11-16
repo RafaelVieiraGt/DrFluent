@@ -1,4 +1,5 @@
 import './exercicios.css';
+import data from '../../api-data-questions.json'
 import Header from '../../Components/Header'
 import brilhoFooter from '../../Assets/brilhoExercicios.PNG';
 import useAxios from '../../hooks/useAxios';
@@ -16,33 +17,51 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-
 export default function Exercicios(){
 
  const {exercicios} = useSelector(rootReducer => rootReducer.exercicios)
-  
+ const category = exercicios.question_category.question_category;
+ const difficulty = exercicios.question_difficulty.question_difficulty;
+ const type = exercicios.question_type.question_type
 
- 
+ const dataExercicios = data.exercicios[category][difficulty]
 
 
-    let apiUrl = `/api.php?amount=6&category=${exercicios.question_category.question_category}&difficulty=${exercicios.question_difficulty.question_difficulty}&type=${exercicios.question_type.question_type}`
+    //let apiUrl = `/api.php?amount=6&category=${exercicios.question_category.question_category}&difficulty=${exercicios.question_difficulty.question_difficulty}&type=${exercicios.question_type.question_type}`
     
    
-    const { response, loading } = useAxios({url: apiUrl})
+    //const { response, loading } = useAxios({url: apiUrl})
 
     const [contador, setContador] = useState(0);
     const [contadorPags,setContadorPags] = useState(0)
     const [exe, setExe] = useState("");
+    const [randomExercises, setRandomExercises] = useState([]);
     const [score, setScore] = useState(0);
     const [altCerta, setAltCerta] = useState("")
     const [alts, setAlts] = useState([]);
     const navigate = useNavigate()
  
     
+  useEffect(()=>{
+    const getRandomExercises = (array, n) => {
+      const shuffled = array.sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, n);
+    };
+
+    const randomFiveExercises = getRandomExercises(dataExercicios, 6);
+    setRandomExercises(randomFiveExercises);
+
+    setExe(randomFiveExercises[contador].enunciado)
+    setAlts(randomFiveExercises[contador].respostas)
+    setAltCerta(randomFiveExercises[contador].resposta_correta)
+    
 
 
+  }, [contador])
+  
+  
    
-    function shuffleArray(array) {
+    /*function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
@@ -71,15 +90,15 @@ export default function Exercicios(){
       
         
     },[response, loading, contador])
-    shuffleArray(alts)
+    shuffleArray(alts)*/
 
-    if(loading){
+     /*if(loading){
       return(
           <div className='container-settings'>
               <h1>Carregando Questões...</h1>
           </div>
       )
-  }
+  }*/
     
 
 

@@ -91,3 +91,15 @@ footer{
     background-color: #333;
     color: #FCC822;
 }
+
+@media (max-width: 500px){
+    .box-score{
+        width: 80% ;
+    }
+
+    .cont-central{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -10,39 +10,19 @@ import { useEffect, useState } from 'react';
 
 export default function Settings(){
     const { exercicios } = useSelector(rootReducer => rootReducer.exercicios)
-    const { response, error, loading } = useAxios({ url: "/api_category.php"})
     
-
     
     const category = exercicios.question_category.question_category;
     const difficulty = exercicios.question_difficulty.question_difficulty;
     const type = exercicios.question_type.question_type
     console.log(category, difficulty, type)
-const navigate = useNavigate();
-    const objectToAdd = { id: "any", name: " " };
-    const [categories, setCategories] = useState([]);
+
+    const navigate = useNavigate();
     
-
-    useEffect(() => {
-
-        function loadApi(){
-        if (!loading && !error && response && response.trivia_categories) {
-           
-                const categoryList = [...response.trivia_categories];
-                categoryList.unshift(objectToAdd);
-                setCategories(categoryList);
-           
-            }
-        }
-        loadApi();
-        
-    }, [loading, error, response])
-
     
+   
 
-    if(error){
-        console.log("algo deu errado" + error)
-    }
+   
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -55,14 +35,22 @@ const navigate = useNavigate();
         
     }
    
-    if(loading){
+    /*if(loading){
         return(
             <div className='container-settings'>
                 <h1>Carregando opções...</h1>
             </div>
         )
-    }
+    }*/
+    const categories = [
+        {id: "any", name: " "},
+        {id: "simple_present", name: "Simple Present"},
+        {id: "present_continuous", name: "Present Continuous"},
+        {id: "present_perfect", name: "Present Perfect"},
+        {id: "simple_past", name: "Simple Past"},
+        {id: "past_continuous", name: "Past Continuous"},
 
+    ]
     const difficultyOptions = [
         {id: "any", name: " "},
         {id: "easy", name: "Easy"},

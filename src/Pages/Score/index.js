@@ -24,8 +24,8 @@ export default function Score(){
             await updateDoc(docRef, {
                 score: (score + scoreAtual)
             })
-            .then(()=> toast.success("Deu certo"))
-            .catch(()=> toast.error("deu errado"))
+            .then(()=> console.log("Score Computado"))
+            .catch(()=> console.log("deu errado"))
         }
 
         setScore();

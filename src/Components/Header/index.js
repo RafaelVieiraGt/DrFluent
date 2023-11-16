@@ -22,7 +22,7 @@ export default function Header(){
             <div className='header'>
                 <div className='h1-login' onClick={backMenu}>
                     <h1 id='nomeHeader'>Dr</h1>
-                    <img src={nuvemFeliz} width={45} height={45} alt='Nuvem feliz'/>
+                    <img id='img-header' src={nuvemFeliz} width={45} height={45} alt='Nuvem feliz'/>
                     <h1 id='nomeHeader2'>Fluent</h1>
                 </div>
                 <div className='nome-perfil'>
