@@ -53,8 +53,6 @@ O software perfeito para professoras particulares e microempresárias do ramo da
 
 * [React Js](https://pt-br.legacy.reactjs.org/docs/getting-started.html)
 
-* [The open trivia database](https://opentdb.com/api_config.php) (Fonte dos exercicios)
-
 * [React Hooks](https://legacy.reactjs.org/docs/hooks-intro.html)
 
 * [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
@@ -69,7 +67,6 @@ O software perfeito para professoras particulares e microempresárias do ramo da
 
 * Aplicativo Móvel Dr Fluent
 
-* Novos exercicios de gramática
 
  <br/>
 
