@@ -13,7 +13,7 @@ Dr Fluent, um projeto focado em ajudar professores de inglês a aprimorar o conh
 
 > Faça a instalação do nosso aplicativo Desktop DrFluent clicando no link abaixo.
 
-[Download DrFluent](https://github.com/RafaelVieiraGt/DrFluent/raw/desktop/DrFluent1.1.zip)
+[Download DrFluent](https://github.com/RafaelVieiraGt/DrFluent/raw/desktop/INSTALADOR.zip)
   
 Com o app instalado na sua máquina, se registre, faça o login e pronto! voce pode fazer o registro de seus alunos para gerenciá-los de forma mais organizada. Tendo acesso a informações de cada aluno 
 
@@ -38,7 +38,7 @@ quanto mais perguntas o aluno responde, maior será seu score. Podendo competir 
 
 ## 📋 Pré-requisitos
 
-Computador com acesso à internet.
+Computador com acesso à internet e windows 10 ou maior.
 
  <br/>
 
